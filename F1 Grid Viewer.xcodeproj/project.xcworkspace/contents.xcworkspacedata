@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Person Information.xcodeproj">
+      location = "self:/Users/Conall/Documents/CS6116/week4/Person Information/F1 Grid Viewer.xcodeproj">
    </FileRef>
 </Workspace>

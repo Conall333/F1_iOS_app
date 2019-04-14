@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="people.xsd" generated="2011-11-05T23:09:59">
+
+<person>
+    <name>Sebastian Vettel</name>
+    <team>Ferrari</team>
+    <races>218</races>
+    <image>vet.jpg</image>
+    <image2>ferrari.jpg</image2>
+    <country>Germany</country>
+    <points>2719</points>
+</person>
+
+
+<person>
+    <name>Kimi Raikkonen</name>
+    <team>Ferrari</team>
+    <races>292</races>
+    <image>kimi.jpg</image>
+    <image2>ferrari.jpg</image2>
+    <country>Finland</country>
+    <points>1801</points>
+</person>
+
+    <person>
+        <name>Lewis Hamilton</name>
+        <team>Mercedes</team>
+        <races>227</races>
+        <image>ham.jpg</image>
+        <image2>mercedes.jpg</image2>
+        <country>United Kingdom</country>
+        <points>2968</points>
+    </person>
+
+    <person>
+        <name>Valtteri Bottas</name>
+        <team>Mercedes</team>
+        <races>117</races>
+        <image>bot.jpg</image>
+        <image2>mercedes.jpg</image2>
+        <country>Finland</country>
+        <points>943</points>
+    </person>
+
+
+
+    <person>
+        <name>Max Verstappen</name>
+        <team>Red Bull Racing</team>
+        <races>148</races>
+        <image>max.jpg</image>
+        <image2>redbull.jpg</image2>
+        <country>Netherlands</country>
+        <points>637</points>
+    </person>
+
+    <person>
+        <name>Daniel Ricciardo</name>
+        <team>Red Bull Racing</team>
+        <races>148</races>
+        <image>dan.jpg</image>
+        <image2>redbull.jpg</image2>
+        <country>Australia</country>
+        <points>962</points>
+    </person>
+
+
+    <person>
+        <name>Nico Hulkenberg</name>
+        <team>Renault</team>
+        <races>156</races>
+        <image>hulk.jpg</image>
+        <image2>renault.jpg</image2>
+        <country>Germany</country>
+        <points>474</points>
+    </person>
+
+    <person>
+        <name>Carlos Sainz Jr</name>
+        <team>Renault</team>
+        <races>79</races>
+        <image>carlos.jpg</image>
+        <image2>renault.jpg</image2>
+        <country>Spain</country>
+        <points>163</points>
+    </person>
+
+    <person>
+        <name>Sergio Perez</name>
+        <team>Force India</team>
+        <races>155</races>
+        <image>sergio.jpg</image>
+        <image2>racingpoint.jpg</image2>
+        <country>Mexico</country>
+        <points>524</points>
+    </person>
+
+    <person>
+        <name>Esteban Ocon</name>
+        <team>Force India</team>
+        <races>48</races>
+        <image>oco.jpg</image>
+        <image2>racingpoint.jpg</image2>
+        <country>France</country>
+        <points>136</points>
+    </person>
+
+    <person>
+        <name>Kevin Magnussen</name>
+        <team>Hass F1</team>
+        <races>80</races>
+        <image>mag.jpg</image>
+        <image2>haas.jpg</image2>
+        <country>Denmark</country>
+        <points>134</points>
+    </person>
+
+    <person>
+        <name>Romain Grosjean</name>
+        <team>Hass F1</team>
+        <races>143</races>
+        <image>romain.jpg</image>
+        <image2>haas.jpg</image2>
+        <country>France</country>
+        <points>375</points>
+    </person>
+
+
+
+
+
+
+
+</dataroot>

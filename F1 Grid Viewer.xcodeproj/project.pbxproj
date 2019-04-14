@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		510E78342209988D003FAA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E78332209988D003FAA56 /* AppDelegate.swift */; };
-		510E78362209988D003FAA56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E78352209988D003FAA56 /* ViewController.swift */; };
 		510E78392209988D003FAA56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510E78372209988D003FAA56 /* Main.storyboard */; };
 		510E783B2209988E003FAA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510E783A2209988E003FAA56 /* Assets.xcassets */; };
 		510E783E2209988E003FAA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510E783C2209988E003FAA56 /* LaunchScreen.storyboard */; };
-		510E78492209988E003FAA56 /* Person_InformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E78482209988E003FAA56 /* Person_InformationTests.swift */; };
-		510E78542209988E003FAA56 /* Person_InformationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E78532209988E003FAA56 /* Person_InformationUITests.swift */; };
+		510E786222099AA7003FAA56 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E786122099AA7003FAA56 /* DriverViewController.swift */; };
+		510E786422099AC0003FAA56 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E786322099AC0003FAA56 /* DetailsViewController.swift */; };
+		510E786622099B17003FAA56 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E786522099B17003FAA56 /* Driver.swift */; };
+		510E78682209A1B0003FAA56 /* Drivers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E78672209A1B0003FAA56 /* Drivers.swift */; };
+		512D0D522247E71A00A3B665 /* DriverModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 512D0D502247E71A00A3B665 /* DriverModel.xcdatamodeld */; };
+		512D0D542247EE1D00A3B665 /* AddNewDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D0D532247EE1D00A3B665 /* AddNewDriverViewController.swift */; };
+		512D0D98224ABCC400A3B665 /* FavourtiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512D0D97224ABCC400A3B665 /* FavourtiesTableViewController.swift */; };
+		515D793D2212D512003B3F35 /* DriverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515D793C2212D512003B3F35 /* DriverTableViewController.swift */; };
+		515D793F2212DB85003B3F35 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515D793E2212DB85003B3F35 /* WebViewController.swift */; };
+		515D7941221871B8003B3F35 /* drivers.xml in Resources */ = {isa = PBXBuildFile; fileRef = 515D7940221871B8003B3F35 /* drivers.xml */; };
+		516C22C2221B2AB8008E876A /* XMLDriverParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C22C1221B2AB8008E876A /* XMLDriverParser.swift */; };
+		51BA72A0222D9F2C0038DC1A /* ferrari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BA729F222D9F2B0038DC1A /* ferrari.jpg */; };
+		51BA72A1222D9F2C0038DC1A /* ferrari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BA729F222D9F2B0038DC1A /* ferrari.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +44,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		510E78302209988D003FAA56 /* Person Information.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Person Information.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510E78302209988D003FAA56 /* F1 Grid Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F1 Grid Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		510E78332209988D003FAA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		510E78352209988D003FAA56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		510E78382209988D003FAA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		510E783A2209988E003FAA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		510E783D2209988E003FAA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		510E783F2209988E003FAA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		510E78442209988E003FAA56 /* Person InformationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Person InformationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		510E78482209988E003FAA56 /* Person_InformationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person_InformationTests.swift; sourceTree = "<group>"; };
-		510E784A2209988E003FAA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		510E784F2209988E003FAA56 /* Person InformationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Person InformationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		510E78532209988E003FAA56 /* Person_InformationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person_InformationUITests.swift; sourceTree = "<group>"; };
-		510E78552209988E003FAA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510E78442209988E003FAA56 /* F1 Grid ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F1 Grid ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510E784F2209988E003FAA56 /* F1 Grid ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F1 Grid ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510E786122099AA7003FAA56 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		510E786322099AC0003FAA56 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		510E786522099B17003FAA56 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		510E78672209A1B0003FAA56 /* Drivers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivers.swift; sourceTree = "<group>"; };
+		512D0D512247E71A00A3B665 /* Driver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Driver.xcdatamodel; sourceTree = "<group>"; };
+		512D0D532247EE1D00A3B665 /* AddNewDriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewDriverViewController.swift; sourceTree = "<group>"; };
+		512D0D97224ABCC400A3B665 /* FavourtiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavourtiesTableViewController.swift; sourceTree = "<group>"; };
+		515D793C2212D512003B3F35 /* DriverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverTableViewController.swift; sourceTree = "<group>"; };
+		515D793E2212DB85003B3F35 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		515D7940221871B8003B3F35 /* drivers.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = drivers.xml; sourceTree = "<group>"; };
+		516C22C1221B2AB8008E876A /* XMLDriverParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDriverParser.swift; sourceTree = "<group>"; };
+		51BA729F222D9F2B0038DC1A /* ferrari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ferrari.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				510E78322209988D003FAA56 /* Person Information */,
-				510E78472209988E003FAA56 /* Person InformationTests */,
-				510E78522209988E003FAA56 /* Person InformationUITests */,
 				510E78312209988D003FAA56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,9 +102,9 @@
 		510E78312209988D003FAA56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				510E78302209988D003FAA56 /* Person Information.app */,
-				510E78442209988E003FAA56 /* Person InformationTests.xctest */,
-				510E784F2209988E003FAA56 /* Person InformationUITests.xctest */,
+				510E78302209988D003FAA56 /* F1 Grid Viewer.app */,
+				510E78442209988E003FAA56 /* F1 Grid ViewerTests.xctest */,
+				510E784F2209988E003FAA56 /* F1 Grid ViewerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,40 +112,33 @@
 		510E78322209988D003FAA56 /* Person Information */ = {
 			isa = PBXGroup;
 			children = (
+				515D7940221871B8003B3F35 /* drivers.xml */,
 				510E78332209988D003FAA56 /* AppDelegate.swift */,
-				510E78352209988D003FAA56 /* ViewController.swift */,
 				510E78372209988D003FAA56 /* Main.storyboard */,
 				510E783A2209988E003FAA56 /* Assets.xcassets */,
 				510E783C2209988E003FAA56 /* LaunchScreen.storyboard */,
 				510E783F2209988E003FAA56 /* Info.plist */,
+				51BA729F222D9F2B0038DC1A /* ferrari.jpg */,
+				510E786522099B17003FAA56 /* Driver.swift */,
+				510E78672209A1B0003FAA56 /* Drivers.swift */,
+				516C22C1221B2AB8008E876A /* XMLDriverParser.swift */,
+				515D793C2212D512003B3F35 /* DriverTableViewController.swift */,
+				512D0D97224ABCC400A3B665 /* FavourtiesTableViewController.swift */,
+				510E786122099AA7003FAA56 /* DriverViewController.swift */,
+				510E786322099AC0003FAA56 /* DetailsViewController.swift */,
+				515D793E2212DB85003B3F35 /* WebViewController.swift */,
+				512D0D502247E71A00A3B665 /* DriverModel.xcdatamodeld */,
+				512D0D532247EE1D00A3B665 /* AddNewDriverViewController.swift */,
 			);
 			path = "Person Information";
-			sourceTree = "<group>";
-		};
-		510E78472209988E003FAA56 /* Person InformationTests */ = {
-			isa = PBXGroup;
-			children = (
-				510E78482209988E003FAA56 /* Person_InformationTests.swift */,
-				510E784A2209988E003FAA56 /* Info.plist */,
-			);
-			path = "Person InformationTests";
-			sourceTree = "<group>";
-		};
-		510E78522209988E003FAA56 /* Person InformationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				510E78532209988E003FAA56 /* Person_InformationUITests.swift */,
-				510E78552209988E003FAA56 /* Info.plist */,
-			);
-			path = "Person InformationUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		510E782F2209988D003FAA56 /* Person Information */ = {
+		510E782F2209988D003FAA56 /* F1 Grid Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 510E78582209988E003FAA56 /* Build configuration list for PBXNativeTarget "Person Information" */;
+			buildConfigurationList = 510E78582209988E003FAA56 /* Build configuration list for PBXNativeTarget "F1 Grid Viewer" */;
 			buildPhases = (
 				510E782C2209988D003FAA56 /* Sources */,
 				510E782D2209988D003FAA56 /* Frameworks */,
@@ -140,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = "Person Information";
+			name = "F1 Grid Viewer";
 			productName = "Person Information";
-			productReference = 510E78302209988D003FAA56 /* Person Information.app */;
+			productReference = 510E78302209988D003FAA56 /* F1 Grid Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		510E78432209988E003FAA56 /* Person InformationTests */ = {
+		510E78432209988E003FAA56 /* F1 Grid ViewerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 510E785B2209988E003FAA56 /* Build configuration list for PBXNativeTarget "Person InformationTests" */;
+			buildConfigurationList = 510E785B2209988E003FAA56 /* Build configuration list for PBXNativeTarget "F1 Grid ViewerTests" */;
 			buildPhases = (
 				510E78402209988E003FAA56 /* Sources */,
 				510E78412209988E003FAA56 /* Frameworks */,
@@ -158,14 +166,14 @@
 			dependencies = (
 				510E78462209988E003FAA56 /* PBXTargetDependency */,
 			);
-			name = "Person InformationTests";
+			name = "F1 Grid ViewerTests";
 			productName = "Person InformationTests";
-			productReference = 510E78442209988E003FAA56 /* Person InformationTests.xctest */;
+			productReference = 510E78442209988E003FAA56 /* F1 Grid ViewerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		510E784E2209988E003FAA56 /* Person InformationUITests */ = {
+		510E784E2209988E003FAA56 /* F1 Grid ViewerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 510E785E2209988E003FAA56 /* Build configuration list for PBXNativeTarget "Person InformationUITests" */;
+			buildConfigurationList = 510E785E2209988E003FAA56 /* Build configuration list for PBXNativeTarget "F1 Grid ViewerUITests" */;
 			buildPhases = (
 				510E784B2209988E003FAA56 /* Sources */,
 				510E784C2209988E003FAA56 /* Frameworks */,
@@ -176,9 +184,9 @@
 			dependencies = (
 				510E78512209988E003FAA56 /* PBXTargetDependency */,
 			);
-			name = "Person InformationUITests";
+			name = "F1 Grid ViewerUITests";
 			productName = "Person InformationUITests";
-			productReference = 510E784F2209988E003FAA56 /* Person InformationUITests.xctest */;
+			productReference = 510E784F2209988E003FAA56 /* F1 Grid ViewerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 510E782B2209988D003FAA56 /* Build configuration list for PBXProject "Person Information" */;
+			buildConfigurationList = 510E782B2209988D003FAA56 /* Build configuration list for PBXProject "F1 Grid Viewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				510E782F2209988D003FAA56 /* Person Information */,
-				510E78432209988E003FAA56 /* Person InformationTests */,
-				510E784E2209988E003FAA56 /* Person InformationUITests */,
+				510E782F2209988D003FAA56 /* F1 Grid Viewer */,
+				510E78432209988E003FAA56 /* F1 Grid ViewerTests */,
+				510E784E2209988E003FAA56 /* F1 Grid ViewerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				510E783E2209988E003FAA56 /* LaunchScreen.storyboard in Resources */,
+				515D7941221871B8003B3F35 /* drivers.xml in Resources */,
 				510E783B2209988E003FAA56 /* Assets.xcassets in Resources */,
 				510E78392209988D003FAA56 /* Main.storyboard in Resources */,
+				51BA72A0222D9F2C0038DC1A /* ferrari.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BA72A1222D9F2C0038DC1A /* ferrari.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +267,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				510E78362209988D003FAA56 /* ViewController.swift in Sources */,
 				510E78342209988D003FAA56 /* AppDelegate.swift in Sources */,
+				516C22C2221B2AB8008E876A /* XMLDriverParser.swift in Sources */,
+				510E786222099AA7003FAA56 /* DriverViewController.swift in Sources */,
+				510E786622099B17003FAA56 /* Driver.swift in Sources */,
+				510E786422099AC0003FAA56 /* DetailsViewController.swift in Sources */,
+				515D793F2212DB85003B3F35 /* WebViewController.swift in Sources */,
+				512D0D542247EE1D00A3B665 /* AddNewDriverViewController.swift in Sources */,
+				512D0D522247E71A00A3B665 /* DriverModel.xcdatamodeld in Sources */,
+				515D793D2212D512003B3F35 /* DriverTableViewController.swift in Sources */,
+				512D0D98224ABCC400A3B665 /* FavourtiesTableViewController.swift in Sources */,
+				510E78682209A1B0003FAA56 /* Drivers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				510E78492209988E003FAA56 /* Person_InformationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				510E78542209988E003FAA56 /* Person_InformationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		510E78462209988E003FAA56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 510E782F2209988D003FAA56 /* Person Information */;
+			target = 510E782F2209988D003FAA56 /* F1 Grid Viewer */;
 			targetProxy = 510E78452209988E003FAA56 /* PBXContainerItemProxy */;
 		};
 		510E78512209988E003FAA56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 510E782F2209988D003FAA56 /* Person Information */;
+			target = 510E782F2209988D003FAA56 /* F1 Grid Viewer */;
 			targetProxy = 510E78502209988E003FAA56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Person Information.app/Person Information";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F1 Grid Viewer.app/F1 Grid Viewer";
 			};
 			name = Debug;
 		};
@@ -498,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Person Information.app/Person Information";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F1 Grid Viewer.app/F1 Grid Viewer";
 			};
 			name = Release;
 		};
@@ -543,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		510E782B2209988D003FAA56 /* Build configuration list for PBXProject "Person Information" */ = {
+		510E782B2209988D003FAA56 /* Build configuration list for PBXProject "F1 Grid Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				510E78562209988E003FAA56 /* Debug */,
@@ -552,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		510E78582209988E003FAA56 /* Build configuration list for PBXNativeTarget "Person Information" */ = {
+		510E78582209988E003FAA56 /* Build configuration list for PBXNativeTarget "F1 Grid Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				510E78592209988E003FAA56 /* Debug */,
@@ -561,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		510E785B2209988E003FAA56 /* Build configuration list for PBXNativeTarget "Person InformationTests" */ = {
+		510E785B2209988E003FAA56 /* Build configuration list for PBXNativeTarget "F1 Grid ViewerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				510E785C2209988E003FAA56 /* Debug */,
@@ -570,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		510E785E2209988E003FAA56 /* Build configuration list for PBXNativeTarget "Person InformationUITests" */ = {
+		510E785E2209988E003FAA56 /* Build configuration list for PBXNativeTarget "F1 Grid ViewerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				510E785F2209988E003FAA56 /* Debug */,
@@ -580,6 +598,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		512D0D502247E71A00A3B665 /* DriverModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				512D0D512247E71A00A3B665 /* Driver.xcdatamodel */,
+			);
+			currentVersion = 512D0D512247E71A00A3B665 /* Driver.xcdatamodel */;
+			path = DriverModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 510E78282209988D003FAA56 /* Project object */;
 }
